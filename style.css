@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    float: left;
+}
+.menu .main-menu{
+    background-color: #f9ee45;
+    width: 100px;
+    height: 100vh;
+}
+.content .header {
+    background-color: #4958cb;
+    height: 100px;
+}
+.content .section {
+    float: left;
+    background-color: #ffffff;
+    width: calc(100% - 200px);
+    height: calc(100vh - 200px);
+}
+.content .banners {
+    float: left;
+    background-color: #ff4c4f;
+    width: 100px;
+    height: calc(100vh - 200px);
+}
+.content .footer {
+    float: left;
+    background-color: #069b2f;
+    width: calc(100% - 100px);
+    height: 100px;
+
+}
